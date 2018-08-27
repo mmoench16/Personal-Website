@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Martin&#39;s Blog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Martin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alcohol</title>
+      <link>/tags/alcohol/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/alcohol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>/tags/algorithm/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beer</title>
+      <link>/tags/beer/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/beer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth First</title>
+      <link>/tags/depth-first/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/depth-first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economic Potential</title>
+      <link>/tags/economic-potential/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/economic-potential/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faba Bean</title>
+      <link>/tags/faba-bean/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/faba-bean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maze</title>
+      <link>/tags/maze/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/maze/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P5.js</title>
+      <link>/tags/p5.js/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/p5.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processing</title>
+      <link>/tags/processing/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursive</title>
+      <link>/tags/recursive/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/recursive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vicia Faba</title>
+      <link>/tags/vicia-faba/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vicia-faba/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

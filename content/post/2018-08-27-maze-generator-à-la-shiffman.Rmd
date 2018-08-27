@@ -1,0 +1,29 @@
+---
+title: Maze Generator à la Shiffman
+author: Martin Moench
+date: '2018-08-27'
+slug: maze-generator-à-la-shiffman
+categories:
+  - programming
+tags:
+  - p5.js
+  - maze
+  - algorithm
+  - recursive
+  - depth-first
+  - processing
+---
+
+I am a big fan of [Daniel Shiffman](https://shiffman.net/)'s work and particularly like his YouTube channel [Coding Challenges](www.youtube.com).
+
+One of the "challenges" is the creation of a **Maze Generator** using [p5.js](https://p5js.org/), the JavaScript implementation of the [Processing](https://processing.org/) language/package.
+
+In this short article you can find my implementation of the *Maze Generator à la Shiffman*. Run the Maze Generator below or head down to view the code>.
+
+### Maze Generator
+
+Add here
+
+### Code
+
+Code here

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Martin&#39;s Blog</title>
+    <link>/</link>
+    <description>Recent content on Martin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maze Generator à la Shiffman</title>
+      <link>/2018/08/27/maze-generator-%C3%A0-la-shiffman/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/27/maze-generator-%C3%A0-la-shiffman/</guid>
+      <description>I am a big fan of Daniel Shiffman’s work and particularly like his YouTube channel Coding Challenges.
+One of the “challenges” is the creation of a Maze Generator using p5.js, the JavaScript implementation of the Processing language/package.
+In this short article you can find my implementation of the Maze Generator à la Shiffman. Run the Maze Generator below or head down to view the code&amp;gt;.
+Maze Generator Add here
+ Code Code here</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>2015 Potential of faba bean starch for distilled spirit production Enhancing the economic potential of beans using Vicia faba L.: Crop performance and the use of air-classified grain components in animal feeds and brewing    2015 Potential of faba bean starch for distilled spirit production Authors: G Walker, J Ianieri, M Moench, G Palomba, P Iannetta
+Abstract: Faba bean (Vicia faba L. minor, also known as field beans) are a grain legume species with great potential in terms of the capacity to improve human and animal nutrition as they are rich in starch, protein and minerals (Fig.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Martin&#39;s Blog</title>
+    <link>/publications/</link>
+    <description>Recent content in Publications on Martin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/publications/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/publications/</guid>
+      <description>2015 Potential of faba bean starch for distilled spirit production Authors: G Walker, J Ianieri, M Moench, G Palomba, P Iannetta
+Abstract: Faba bean (Vicia faba L. minor, also known as field beans) are a grain legume species with great potential in terms of the capacity to improve human and animal nutrition as they are rich in starch, protein and minerals (Fig. 1). Importantly, they support more sustainable crop systems as they can be cultivated without nitrogen fertilizers.</description>
+    </item>
+    
+  </channel>
+</rss>

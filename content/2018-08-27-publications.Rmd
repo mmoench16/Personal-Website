@@ -1,0 +1,35 @@
+---
+title: Publications
+author: Martin Moench
+date: '2018-08-27'
+slug: publications
+output:
+  blogdown::html_page:
+    toc: true
+categories:
+  - publication
+tags:
+  - faba bean
+  - vicia faba
+  - alcohol
+  - beer
+  - economic potential
+---
+
+## 2015
+
+### Potential of faba bean starch for distilled spirit production
+
+Authors: G Walker, J Ianieri, M Moench, G Palomba, P Iannetta
+
+Abstract: Faba bean (Vicia faba L. minor, also known as field beans) are a grain legume species with great potential in terms of the capacity to improve human and animal nutrition as they are rich in starch, protein and minerals (Fig. 1). Importantly, they support more sustainable crop systems as they can be cultivated without nitrogen fertilizers. Furthermore, their potential to help safeguard the production environment extend to decreasing greenhouse gas (GHG), emissions and improving soil carbon (C) and N assimilation. The increased soil fertility reducing the inorganic N—fertiliser requirement (‘N-fertiliser offset’), of non-legume crops which follow the legume in the rotation. Thus, improved agricultural efficiency that is achieved via grain legume supported cropping may lead to less non-renewable energy use.
+
+[Link to article](https://beans4feeds.hutton.ac.uk/sites/www.beans4feeds.net/files/files/Neutral%20spirit%20distilled%20from%20faba%20bean%20starch.pdf)
+
+### Enhancing the economic potential of beans using Vicia faba L.: Crop performance and the use of air-classified grain components in animal feeds and brewing
+
+Authors: Pietro PM Iannetta, Euan K James, Cathy Hawes, Laura Lopex Del Egido, Alison Karley, Oluyinka Olukosi, Jos Houdijk, Viv Crampton, Martin Moench, Gabriele Palomba, Jacopo Ianieri, Fergus Clark, Ken Duncan, Geoff R Squire, Gavin Ramsay, Graeme Walker
+
+Abstract: Research at the James Hutton Institute's Centre for Sustainable Cropping (CSC) shows biological nitrogen fixation by faba beans (Vicia faba L.) is maximal under low input, non-inversion tillage with compost incorporated. Increasing bean protein production efficiency is being investigated with respect to rhizobial diversity and through development of the supply chain. Powdered faba bean kernels are fractionated into beanprotein and-starch concentrates (BPC and BSC, respectively) using „air-classification‟. BPC can displace soya and fishmeal in salmon-feed without impacting fish growth, feed efficiency or health. BSC performed well in poultry-and pig-feeds and has significant socio-economic potential in brewing.
+
+[Link to article](https://beans4feeds.hutton.ac.uk/sites/www.beans4feeds.net/files/files/15_09_15%20-%20Legume%20Perspectives%208%20-%20%20Enhancing%20the%20economic%20potential%20of%20beans%20pp21-23.pdf)

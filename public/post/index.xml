@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Martin&#39;s Blog</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Martin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maze Generator à la Shiffman</title>
+      <link>/2018/08/27/maze-generator-%C3%A0-la-shiffman/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/27/maze-generator-%C3%A0-la-shiffman/</guid>
+      <description>I am a big fan of Daniel Shiffman’s work and particularly like his YouTube channel Coding Challenges.
+One of the “challenges” is the creation of a Maze Generator using p5.js, the JavaScript implementation of the Processing language/package.
+In this short article you can find my implementation of the Maze Generator à la Shiffman. Run the Maze Generator below or head down to view the code&amp;gt;.
+Maze Generator Add here
+ Code Code here</description>
+    </item>
+    
+  </channel>
+</rss>
