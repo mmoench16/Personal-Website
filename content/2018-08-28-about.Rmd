@@ -1,0 +1,24 @@
+---
+title: About
+date: '2018-08-28'
+slug: about
+tags:
+  - Martin Moench
+---
+
+```{r setup, include = FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+Hi folks..
+
+I am an Information Analyst with an interest in programming, cycling and beer. I am new to the blogging business so not sure how I will fare with it..
+
+However, you can find some of my other musings on one of the following platforms:
+
+<div class="container" style="text-align:center;">
+<a href="https://github.com/mmoench16"><i class="fa fa-github" style="font-size:24px;"></i></a>
+<a href="https://twitter.com/johnnyzeegerman"><i class="fa fa-twitter" style="font-size:24px;"></i></a>
+<a href="https://stackexchange.com/users/6605258/johnny?tab=accounts"><i class="fa fa-stack-exchange" style="font-size:24px;"></i></a>
+<a href="https://scholar.google.co.uk/citations?user=ohoQ55EAAAAJ&hl=en"><i class="fa fa-graduation-cap" style="font-size:24px;"></i></a>
+<a href="www.linkedin.com/in/martin-moench-04472286"><i class="fa fa-linkedin" style="font-size:24px;"></i></a></div>
