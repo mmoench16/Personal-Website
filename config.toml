@@ -1,7 +1,7 @@
 baseurl = "/"
 relativeURLs = true
 languageCode = "en-us"
-title = "Martin's Blog"
+title = "MM's Blog"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
@@ -30,7 +30,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 4
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "A website built through Hugo and blogdown. You might find posts on subjects such as data analysis, programming (R, Java, Processing) and cycling."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
@@ -42,7 +42,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
+    url = "mm-home-logo.png"
     width = 50
     height = 50
     alt = "Logo"
