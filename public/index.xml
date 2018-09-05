@@ -6,10 +6,19 @@
     <description>Recent content on MM&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shapefiles in R with ggplot2 &amp; rgdal</title>
+      <link>/2018/09/04/shapefiles-in-r-with-ggplot2-rgdal/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/04/shapefiles-in-r-with-ggplot2-rgdal/</guid>
+      <description>This quick tutorial will show you the very basics of using Shapefiles in R to generate maps with ggplot2 and rgdal. Along the way, we will create a Hospital Density Map for Scotland as the one below: Before We Start Geospatial data files aren’t necessarily free, in fact, a lot of service providers charge a handsome amount of money for them (after all, the generation of these files takes time, effort and money).</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -18,7 +27,7 @@
       
       <guid>/about/</guid>
       <description>  Hi folks..
-I am an Information Analyst with an interest in programming, cycling and beer. I am new to the blogging business so not sure how I will fare with it..
+I am a Life Scientist turned Information Analyst with an interest in programming, cycling and beer. I am new to the blogging business so not sure how I will fare with it..
 However, you can find some of my other musings on one of the following platforms:
       </description>
     </item>

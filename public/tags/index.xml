@@ -66,6 +66,33 @@
     </item>
     
     <item>
+      <title>Geospatial</title>
+      <link>/tags/geospatial/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/geospatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot2</title>
+      <link>/tags/ggplot2/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Map</title>
+      <link>/tags/map/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Martin Moench</title>
       <link>/tags/martin-moench/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
@@ -102,11 +129,38 @@
     </item>
     
     <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Recursive</title>
       <link>/tags/recursive/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/recursive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rgdal</title>
+      <link>/tags/rgdal/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rgdal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shapefiles</title>
+      <link>/tags/shapefiles/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shapefiles/</guid>
       <description></description>
     </item>
     

@@ -12,7 +12,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 Hi folks..
 
-I am an Information Analyst with an interest in programming, cycling and beer. I am new to the blogging business so not sure how I will fare with it..
+I am a Life Scientist turned Information Analyst with an interest in programming, cycling and beer. I am new to the blogging business so not sure how I will fare with it..
 
 However, you can find some of my other musings on one of the following platforms:
 

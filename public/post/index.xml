@@ -6,10 +6,19 @@
     <description>Recent content in Posts on MM&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shapefiles in R with ggplot2 &amp; rgdal</title>
+      <link>/2018/09/04/shapefiles-in-r-with-ggplot2-rgdal/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/04/shapefiles-in-r-with-ggplot2-rgdal/</guid>
+      <description>This quick tutorial will show you the very basics of using Shapefiles in R to generate maps with ggplot2 and rgdal. Along the way, we will create a Hospital Density Map for Scotland as the one below: Before We Start Geospatial data files aren’t necessarily free, in fact, a lot of service providers charge a handsome amount of money for them (after all, the generation of these files takes time, effort and money).</description>
+    </item>
     
     <item>
       <title>Maze Generator à la Shiffman</title>

@@ -1,0 +1,144 @@
+---
+title: Shapefiles in R with ggplot2 & rgdal
+subtitle: A quick tutorial on how to create maps in R with Shapefiles
+date: '2018-09-04'
+slug: shapefiles-in-r-with-ggplot2-rgdal
+categories:
+  - programming
+  - geospatial analysis
+tags:
+  - r
+  - ggplot2
+  - rgdal
+  - geospatial
+  - map
+  - shapefiles
+---
+
+
+
+<p>This quick tutorial will show you the very basics of using Shapefiles in R to generate maps with <code>ggplot2</code> and <code>rgdal</code>.
+Along the way, we will create a Hospital Density Map for Scotland as the one below:
+<img src="/post/2018-09-04-shapefiles-in-r-with-ggplot2-rgdal_files/HosDenScoFinal.png" /></p>
+<div id="before-we-start" class="section level3">
+<h3>Before We Start</h3>
+<p>Geospatial data files aren’t necessarily free, in fact, a lot of service providers charge a handsome amount of money for them (after all, the generation of these files takes time, effort and money). So before we start creating maps with R we have to address one other question first: <em>Where can we get Shapefiles for free?</em></p>
+<p>It probably depends on where you live but in many countries the respective governments provide free Shapefiles. As per usual in this day and age, Google is your friend. Nonetheless, here is a list of websites that I find to be useful sources for Shapefiles:</p>
+<ul>
+<li><a href="https://data.gov.uk/">For UK: data.gov.uk</a></li>
+<li><a href="https://ec.europa.eu/eurostat/web/gisco/">For Europe: Eurostat</a></li>
+<li><a href="http://www.diva-gis.org/gdata">General: DIVA-GIS</a></li>
+</ul>
+<p>Once you have found and downloaded the Shapefiles you are interested in, they typically come as a zip file, we can get going.
+As the very existence of the zip file possibly alludes to, a “Shapefile” isn’t actually a single file but a collection of files. There are 3 <em>mandatory</em> files, namely:</p>
+<ul>
+<li><code>.shp</code> — shape format; the feature geometry itself<sup><a href="https://en.wikipedia.org/wiki/Shapefile">1</a></sup></li>
+<li><code>.shx</code> — shape index format; a positional index of the feature geometry to allow seeking forwards and backwards quickly<sup><a href="https://en.wikipedia.org/wiki/Shapefile">1</a></sup></li>
+<li><code>.dbf</code> — attribute format; columnar attributes for each shape, in dBase IV format<sup><a href="https://en.wikipedia.org/wiki/Shapefile">1</a></sup></li>
+</ul>
+<p>Chances are that the zip folder you downloaded will contain other supporting files such as <code>.prj</code> or <code>.sbn</code>. For more info on these, head over to <a href="https://en.wikipedia.org/wiki/Shapefile">Wikipedia</a>.</p>
+<p>If you haven’t done so already, unzip the Shapefiles and add them to your R project directory in an appropriately named folder. For me this would be <code>~\Projects\Shapefiles-in-R\data</code>. In the end your project directory might look something like this:</p>
+<pre><code>Projects
++--Shapefiles-in-R
+|  +--.Rhistory
+|  +--Shapefiles-in-R.Rproj
+|  +--data #Shapefiles are here, see below:
+|     +--SG_NHS_HealthBoards_2018.cpg
+|     +--SG_NHS_HealthBoards_2018.dbf
+|     +--SG_NHS_HealthBoards_2018.prj
+|     +--SG_NHS_HealthBoards_2018.shp
+|     +--SG_NHS_HealthBoards_2018.shp.xml
+|     +--SG_NHS_HealthBoards_2018.shx
+|  +--mappymaps.R</code></pre>
+<p>In this tutorial I am using the <a href="https://data.gov.uk/dataset/27d0fe5f-79bb-4116-aec9-a8e565ff756a/nhs-health-boards">NHS Scotland Health Board</a> Shapefiles distributed under Open Government Licence.</p>
+<blockquote>
+<p>Copyright Scottish Government, contains Ordnance Survey data © Crown copyright and database right (insert year); The dataset covers all of Scotland, and is coterminous with Local Authorities (OS BoundaryLine, October 2017 with amendments at Keltybridge and Westfield); Open Government Licence (<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/" class="uri">http://www.nationalarchives.gov.uk/doc/open-government-licence/</a>)</p>
+</blockquote>
+<p>Get the files here by clicking on: <a href="sedsh127.sedsh.gov.uk/Atom_data/ScotGov/ZippedShapefiles/SG_NHS_HealthBoards_2018.zip">Download Shapefiles</a></p>
+</div>
+<div id="reading-shapefiles-into-r" class="section level3">
+<h3>Reading Shapefiles into R</h3>
+<p>In R Studio, open a new R Script and add the following:</p>
+<pre class="r"><code>library(tidyverse)
+library(rgdal)
+NHSBoards &lt;- readOGR(dsn = &quot;filepath/data&quot;, 
+                     layer = &quot;SG_NHS_HealthBoards_2018&quot;)</code></pre>
+<p>The <code>readOGR</code> function from the <code>rgdal</code> package takes two arguments, <code>dsn=</code> (data source name) which is the folder/directory where the Shapefiles are located, e.g. <code>~\Projects\Shapefiles-in-R\data</code>, and <code>layer</code> which is the name of the shapefile <strong>without</strong> the .shp extension, so in our case <code>SG_NHS_HealthBoards_2018</code>.</p>
+<p>At this stage it’s probably not a bad idea to have a quick look at the general structure of your Shapefile, which should look like this:</p>
+<p><img src="/post/2018-09-04-shapefiles-in-r-with-ggplot2-rgdal_files/glimpse-board-shp.PNG" /></p>
+<p>Notice that we have 5 “slots” stored in <code>NHSBoards</code> object, namely <code>@data</code>, <code>@polygons</code>, <code>@plotOrder</code>, <code>@bbox</code> and <code>proj4string</code>. These slots can be accessed using <code>@</code> and the first two are the main interest here. You can think of the <code>@data</code> slot as a table that stores attribute data pertaining to the geographic area of interest. As the name suggests, the <code>@polygons</code> slot contains the actual polygons (or lines in some instances - <code>@lines</code>) that are used by R to draw the map.</p>
+</div>
+<div id="a-first-simple-map" class="section level3">
+<h3>A First Simple Map</h3>
+<p>In order to get the most out of <code>ggplot</code>’s map drawing capabilities it is best to get <code>NHSBoards</code> into tidy format using the <code>tidy()</code> function of the <code>broom</code> package.</p>
+<pre class="r"><code>library(broom)
+NHSBoards_tidy &lt;- tidy(NHSBoards)
+
+ggplot(NHSBoards_tidy, aes(x = long, y = lat, group = group)) +
+  geom_polygon(color = &quot;black&quot;, size = 0.1, fill = &quot;lightgrey&quot;) +
+  coord_equal() +
+  theme_minimal()</code></pre>
+<p><strong>Please note:</strong> Calling <code>tidy()</code> on <code>NHSBoards</code> will remove the <code>@data</code> attributes. Luckily, we can add <code>@data</code> again with a simple <code>left_join</code> as shown later.</p>
+<p>Resulting map:</p>
+<p><img src="/post/2018-09-04-shapefiles-in-r-with-ggplot2-rgdal_files/BasicMapHB.png" /></p>
+</div>
+<div id="adding-data-attributes" class="section level3">
+<h3>Adding Data Attributes</h3>
+<p>Although our map looks very neat, there isn’t an awful lot of information to take from it. Let’s change this by adding <code>@data</code> back to our <code>NHSBoards_tidy</code> object.</p>
+<pre class="r"><code>NHSBoards$id &lt;- row.names(NHSBoards)
+NHSBoards_tidy &lt;- left_join(NHSBoards_tidy, NHSBoards@data)</code></pre>
+<p>Let’s also add an additional bit of information, i.e. the number of NHS hospitals within each Health Board according to this ISD Scotland <a href="http://www.isdscotland.org/Health-Topics/Hospital-Care/Hospitals/">source</a>.</p>
+<pre class="r"><code>hospitalsSco &lt;- data.frame(HBName = sort(NHSBoards@data$HBName),
+                           Hospitals = c(16,15,23,12,8,34,45,28,20,34,1,1,32,3))
+NHSBoards_tidy &lt;- left_join(NHSBoards_tidy, hospitalsSco)</code></pre>
+<p>Now let’s produce a map that colours each individual Health Board based on the number of hospitals within it:</p>
+<pre class="r"><code>ggplot(NHSBoards_tidy, aes(x = long, y = lat, group = group, fill = Hospitals)) +
+  geom_polygon(color = &quot;black&quot;, size = 0.1) +
+  coord_equal() +
+  theme_void() +
+  labs(title = &quot;Hospital Density in Scotland (2018)&quot;) +
+  theme(plot.title = element_text(margin = margin(t = 40, b = -40)))</code></pre>
+<p><img src="/post/2018-09-04-shapefiles-in-r-with-ggplot2-rgdal_files/HospDensSco2018.png" /></p>
+</div>
+<div id="adding-another-layer" class="section level3">
+<h3>Adding Another Layer</h3>
+<p>The map we have now conveys already quite a bit of information. However, seeing that the variable <code>Hospitals</code> is continuous and as a result of that the colour scheme is continuous also, I think it would be nice to add labels to the map showing the actual number of hospitals in each Health Board.</p>
+<p>In order to have some sensible coordinates for our labels it is not a bad approach to use the mean of the range of the longitude and latitude for each Health Board, so let’s start there:</p>
+<pre class="r"><code>HBLabel &lt;- NHSBoards_tidy %&gt;%
+  group_by(HBName) %&gt;%
+  summarise(label_long = mean(range(long)), label_lat = mean(range(lat)), Hospitals = mean(Hospitals))</code></pre>
+<p><code>HBLabel</code> will be the new data source for our additional layer, so it is crucial that we specify the <code>data =</code> argument in our <code>geom_text()</code> layer:</p>
+<pre class="r"><code>map &lt;- ggplot(NHSBoards_tidy, aes(x = long, y = lat, group = group, fill = Hospitals)) +
+  geom_polygon(color = &quot;black&quot;, size = 0.1) +
+  coord_equal() +
+  theme_void() +
+  labs(title = &quot;Hospital Density in Scotland (2018)&quot;) +
+  theme(plot.title = element_text(margin = margin(t = 40, b = -40)))
+
+map +
+  geom_text(data = HBLabel, mapping = aes(x = label_long, y = label_lat, label = Hospitals, group = NA)
+            , cex = 4, col = &quot;white&quot;)</code></pre>
+<p>Output:
+<img src="/post/2018-09-04-shapefiles-in-r-with-ggplot2-rgdal_files/HospScotLab1.png" /></p>
+<p>Not too bad for a first shot, however, there are a couple of things wrong here. As you can see the islands don’t seem to have a label as the approximation of the geometric centre in the previous step wasn’t good enough (<code>mean(range())</code>). In fact, the positioning of some of the labels seems to be a bit off for some Health Boards so we will adjust these manually and set the colour for the island labels to black.</p>
+<pre class="r"><code>HBLabel &lt;- NHSBoards_tidy %&gt;%
+  group_by(HBName) %&gt;%
+  summarise(label_long = mean(range(long)), label_lat = mean(range(lat)), Hospitals = mean(Hospitals)) +
+  mutate(LabelOutsideBoundaries = HBName %in% c(&quot;Orkney&quot;, &quot;Shetland&quot;, &quot;Western Isles&quot;),
+         label_long = replace(label_long, HBName %in% c(&quot;Ayrshire and Arran&quot;, &quot;Fife&quot;, &quot;Forth Valley&quot;, &quot;Highland&quot;, &quot;Orkney&quot;, &quot;Shetland&quot;, &quot;Western Isles&quot;), 
+                         c(245000, 340000, 260000, 250000, 375000, 400000, 75000)),
+         label_lat = replace(label_lat, HBName %in% c(&quot;Fife&quot;, &quot;Forth Valley&quot;, &quot;Highland&quot;, &quot;Orkney&quot;, &quot;Shetland&quot;), 
+                        c(710000, 700000, 810000, 1000000, 1175000)))
+
+map +
+  geom_text(data = HBLabel, mapping = aes(x = label_long, y = label_lat, label = Hospitals, group = NA, col = LabelOutsideBoundaries)
+            , cex = 4, show.legend = FALSE) +
+  scale_color_manual(values = c(&quot;white&quot;, &quot;black&quot;))</code></pre>
+<p>Final Output:
+<img src="/post/2018-09-04-shapefiles-in-r-with-ggplot2-rgdal_files/HosDenScoFinal.png" /></p>
+<p>The code shown in this post is probably not perfect so have a play about with it and let me know if anything can be improved.</p>
+</div>
+<div id="acknowledgments" class="section level3">
+<h3>Acknowledgments</h3>
+<p>Most of the things I have learnt about visualising spatial data come from Robinlovelace’s <a href="https://github.com/Robinlovelace/Creating-maps-in-R">Introduction to Visualising Spatial Data in R</a>. My post is a somewhat distilled and ggplot2-focussed version in the spirit of Robinlovelace’s tutorial. If you have a little more time I would highly recommend to click on the above link.</p>
+</div>
