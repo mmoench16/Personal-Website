@@ -3,7 +3,7 @@ relativeURLs = true
 languageCode = "en-us"
 title = "MM's Blog"
 theme = "hugo-lithium"
-googleAnalytics = ""
+googleAnalytics = "UA-102853974-2"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
