@@ -165,7 +165,7 @@ Not too bad for a first shot, however, there are a couple of things wrong here. 
 ```{r, eval=FALSE}
 HBLabel <- NHSBoards_tidy %>%
   group_by(HBName) %>%
-  summarise(label_long = mean(range(long)), label_lat = mean(range(lat)), Hospitals = mean(Hospitals)) +
+  summarise(label_long = mean(range(long)), label_lat = mean(range(lat)), Hospitals = mean(Hospitals)) %>%
   mutate(LabelOutsideBoundaries = HBName %in% c("Orkney", "Shetland", "Western Isles"),
          label_long = replace(label_long, HBName %in% c("Ayrshire and Arran", "Fife", "Forth Valley", "Highland", "Orkney", "Shetland", "Western Isles"), 
                          c(245000, 340000, 260000, 250000, 375000, 400000, 75000)),
