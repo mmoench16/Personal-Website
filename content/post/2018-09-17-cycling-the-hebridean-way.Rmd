@@ -1,0 +1,30 @@
+---
+title: "Cycling the Hebridean Way"
+subtitle: A quick report on how we did it
+date: '2018-09-17'
+slug: cycling-the-hebridean-way
+output:
+  blogdown::html_page:
+    toc: true
+categories:
+  - cycling
+tags:
+  - cycling
+  - bike touring
+  - scotland
+  - outer hebrides
+  - western isles
+  - vatersay
+  - barra
+  - eriskay
+  - uist
+  - berneray
+  - harris
+  - lewis
+---
+
+Text here..
+
+## Headline
+
+Text here..
