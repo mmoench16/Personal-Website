@@ -123,7 +123,11 @@ map +
 <p>Not too bad for a first shot, however, there are a couple of things wrong here. As you can see the islands don’t seem to have a label as the approximation of the geometric centre in the previous step wasn’t good enough (<code>mean(range())</code>). In fact, the positioning of some of the labels seems to be a bit off for some Health Boards so we will adjust these manually and set the colour for the island labels to black.</p>
 <pre class="r"><code>HBLabel &lt;- NHSBoards_tidy %&gt;%
   group_by(HBName) %&gt;%
+<<<<<<< HEAD
   summarise(label_long = mean(range(long)), label_lat = mean(range(lat)), Hospitals = mean(Hospitals)) %&gt;%
+=======
+  summarise(label_long = mean(range(long)), label_lat = mean(range(lat)), Hospitals = mean(Hospitals)) %>%
+>>>>>>> 8715c6b0f3ae7ccd6bb89acd9dba92e5e8fe0560
   mutate(LabelOutsideBoundaries = HBName %in% c(&quot;Orkney&quot;, &quot;Shetland&quot;, &quot;Western Isles&quot;),
          label_long = replace(label_long, HBName %in% c(&quot;Ayrshire and Arran&quot;, &quot;Fife&quot;, &quot;Forth Valley&quot;, &quot;Highland&quot;, &quot;Orkney&quot;, &quot;Shetland&quot;, &quot;Western Isles&quot;), 
                          c(245000, 340000, 260000, 250000, 375000, 400000, 75000)),
