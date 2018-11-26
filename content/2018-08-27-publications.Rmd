@@ -14,7 +14,20 @@ tags:
   - alcohol
   - beer
   - economic potential
+  - statistics
+  - hospital
+  - scotland
 ---
+
+## 2018
+
+### Alcohol-Related Hospital Statistics Scotland 2017/18
+
+Authors: R Lawder, R Gordon, M Moench
+
+Abstract: This publication provides an annual update to figures on the alcohol-related inpatient and day case activity taking place within general acute hospitals and psychiatric hospitals in Scotland. This release covers general acute hospital activity for the financial years 1981/82 to 2017/18 and psychiatric hospital admissions from 1997/98 to 2016/17.
+
+[Link to publication](https://www.isdscotland.org/Health-Topics/Drugs-and-Alcohol-Misuse/Publications/2018-11-20/2018-11-20-ARHS-Report.pdf?46244448424)
 
 ## 2015
 

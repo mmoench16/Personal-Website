@@ -138,6 +138,15 @@
     </item>
     
     <item>
+      <title>Hospital</title>
+      <link>/tags/hospital/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hospital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lewis</title>
       <link>/tags/lewis/</link>
       <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
@@ -242,6 +251,15 @@
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/shapefiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
