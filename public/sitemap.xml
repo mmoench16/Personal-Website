@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2018/09/17/cycling-the-hebridean-way/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <loc>/2019/03/19/cycling-training-camp-benalmadena/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -40,26 +40,14 @@
   </url>
   
   <url>
-    <loc>/tags/barra/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/beer/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/berneray/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/bike-touring/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <loc>/tags/benalmadena/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,14 +57,20 @@
   </url>
   
   <url>
+    <loc>/tags/costa-del-sol/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/cycling/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/cycling/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,12 +83,6 @@
   <url>
     <loc>/tags/economic-potential/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/eriskay/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -123,26 +111,20 @@
   </url>
   
   <url>
-    <loc>/tags/harris/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/hospital/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/lewis/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <loc>/tags/malaga/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -165,12 +147,6 @@
   </url>
   
   <url>
-    <loc>/tags/outer-hebrides/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/p5.js/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -178,7 +154,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -219,8 +195,14 @@
   </url>
   
   <url>
+    <loc>/tags/road-cycling/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/scotland/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -243,26 +225,20 @@
   </url>
   
   <url>
-    <loc>/tags/uist/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <loc>/tags/training/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/vatersay/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <loc>/tags/training-camp/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/vicia-faba/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/western-isles/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

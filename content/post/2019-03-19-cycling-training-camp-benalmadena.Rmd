@@ -1,0 +1,89 @@
+---
+title: (Mini) Road Cycling Training Camp - Costa del Sol
+author: MM
+date: '2019-03-19'
+slug: cycling-training-camp-benalmadena
+categories: 
+  - cycling
+
+tags:    
+  - cycling
+  - road cycling
+  - costa del sol
+  - malaga
+  - benalmadena
+  - training camp
+  - training
+  
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+I recently went on a little **(Mini) Training Camp / Holiday** in [Benalmádena](https://www.google.com/maps/place/Benalm%C3%A1dena,+M%C3%A1laga,+Spain/@36.6270953,-4.9770717,10.25z/data=!4m5!3m4!1s0xd72fcb76005e23f:0xcf24f3c3adf501a!8m2!3d36.5987966!4d-4.5168056) (near Málaga, Costa del Sol) and thought I would share my experience here. Somebody may find this useful `r emo::ji("thinking")` ..
+
+### Where to stay
+
+As nice as it is to stay close to the beach and perhaps go for a nice little walk or sunbathing session after a hard day in the saddle, one thing to be aware of is that the Costa del Sol is very built-up. By that I mean it will probably take a good wee while to leave the busy, trafficky urban areas behind when you ride out in the morning. And you'll obviously have to face it all again at the end of your ride. For city dwellers this probably isn't much of a nuisance but for folk that prefer the countryside (like myself) this may be something to bear in mind.
+
+In terms of actual accommodation I am not going to go into great detail as everybody's taste (and perhaps budget) varies greatly. During my stay I got to see Benalmádena, Fuengirola and parts of Málaga (Center and East). All seemed alright to me and they all have something to offer. Málaga itself has obviously got more choice and can easily be described as a very pretty and vibrant town in general.
+
+### Where to get your bike from
+
+I hired my bike (ORBEA Orca M30 105) from **[Fast Monkey - Bike Rental](https://www.fast-monkey.com/)**. The bike was in decent condition and the guys in the shop were super friendly and helpful.
+
+The other bike hire place I found online prior to my departure was **[b~2~m](http://www.bike2malaga.com/en/)**. They seem to be offering a wider range of road bikes, i.e. BH, Giant, Radon & Cube.
+
+What I found useful was that both places have route suggestions on their websites, including the option of downloading GPX files. I think it's never a bad idea to roughly stick to what the locals tell you if you don't know the area, so these two sites will probably come in handy when you plan your own routes: **[Routes - FM](https://www.fast-monkey.com/road_routes/)**  & **[Routes - b~2~m](http://www.bike2malaga.com/en/cycling-routes-malaga-andalusia/road-bike-routes-malaga)**
+
+An alternative, of course, is to take your own bike or look for other bike hire places in the area. I am sure there are more than just the two I mentioned.
+
+### Where to ride
+
+I have already mentioned that the area along the coast is pretty built-up meaning there is a chance that you'll have to deal with traffic. However, it may still have a bit of an appeal as it is (unsurprisingly) flat, so doing a few kilometres (or miles if you prefer the imperial system) along the coast might make for a decent recovery ride, especially with all the coffee stop opportunities.
+
+Once you leave the urbanised coast behind you essentially get the choice between very gentle, rolling countryside or proper hills which makes the region a pretty versatile training ground in my opinion. It may not be as pretty as some of the more popular cycling holiday destinations but it does offer plenty of choice in terms of the type of riding you may want - so mixing it up a bit shouldn't be too difficult.
+
+Here is the low-down on the rides I did. I hope this may be of some use to you.
+
+#### Ride 1 - Coín
+
+This is probably a good opportunity to have a wee snigger at the fact that I call going out for 3 consecutive rides in a week a training camp `r emo::ji("smirk")` - but this is all I had time for `r emo::ji("grinning")`. 
+
+That being said, here are my thoughts for ride number one.
+
+Nothing too difficult here. An easy 70km ride to get yourself acquainted with your rental bike, refine your set-up or make sure that your bike survived transit without damage. Starting in Benalmádena I headed North towards Churriana, in part, via the N-340a which is very busy (!). Once you join the A-7050 you will find that things start to calm down a little. Next, I followed the A-404 for a good few kilometres brushing the northern outskirts of Alhaurín de la Torre. Just after Alhaurín de la Torre, at a big roundabout, I took the first right to go onto the very pleasant and cyclist-friendly (Ruta Ciclista) MA-3300 which takes you past Alhaurín el Grande. Joining the A-404 again I cycled to Coín, which was surprisingly busy for a town that has about 22,000 inhabitants. I left Coín via the MA-3303 which takes you to the foot of the Sierra de Mijas. From there, (just after a big roundabout with a BP petrol station), the climb up to Mijas on the A-387 begins. Dealing with varying gradients the climb up to Mijas is undoubtedly the nicest part of this ride, not because of the gradients `r emo::ji("roll_eyes")` but because of the fantastic views of the Costa del Sol you'll be rewarded with. From Mijas, I followed the A-368 back down to Benalmádena.
+
+![](/post/2019-03-19-cycling-training-camp-benalmadena_files/Coin.svg)
+
+*See ride on [Strava](https://www.strava.com/activities/2206256390)*
+
+#### Ride 2 - Antennas de Mijas
+
+For my second ride I went south-west on the N-340 to Fuengirola, where I joined the A-387. From there you climb from what is essentially sea level to the [Antena Mirador Benalmadena](https://www.google.co.uk/maps/place/Antena+Mirador+Benalmadena/@36.6006823,-4.6025825,15.67z/data=!4m5!3m4!1s0xd72e37db1d9b5d9:0x9cc8d8b14223d739!8m2!3d36.6050854!4d-4.5966357), or simply the Antennas, with an altitude of roughly 950m (1150ft). With an average gradient of 9.8%, I especially enjoyed the last 5km ([Repetidor (WM) segment on Strava](https://www.strava.com/segments/4993096)). Once crested, you'll be rewarded for your hard toil with a spectacular view all over the Costa del Sol and Valle del Guadalhorce.
+
+![A little teaser..](/post/2019-03-19-cycling-training-camp-benalmadena_files/top.svg)
+
+*Enjoy the descent but keep your eyes peeled for oncoming cyclists and the occasional pothole!*
+
+Next, in order to give my legs a bit of respite, I rode around the Sierra de Mijas anticlockwise via Benalmádena, Alhaurín de la Torre and Alhaurín el Grande. At the by now familiar roundabout with the BP petrol station (if you have read my description of Ride 1 that is), I turned onto the A-387 again to start my second and final ascent to the Antennas. Word of warning: it doesn't get any easier the second time round `r emo::ji("roll_eyes")`!
+
+Lastly, from the top of the Antennas climb back down to Benalmádena via the A-368.
+
+![](/post/2019-03-19-cycling-training-camp-benalmadena_files/Antennas.svg)
+
+*See ride on [Strava](https://www.strava.com/activities/2208673560)*
+
+#### Ride 3 - Guadalhorce Dam
+
+For my last ride I went up north-west to the [Guadalhorce Dam](https://www.google.co.uk/maps/place/Guadalhorce+dam/@36.9396323,-4.8062517,14z/data=!4m5!3m4!1s0x0:0xb2ef1a778ad275e6!8m2!3d36.9414544!4d-4.7971094).
+
+I left Benalmádena via the N-340, heading towards Estación de Cártama. From there I followed the quiet A-7054 to Pizarra. From Pizarra I followed the road signs to Álora mainly riding on the A-7077. Once you leave Álora behind you find yourself on very quiet yet nicely surfaced country roads that take you up to the Guadalhorce and Guadalteba reservoirs which border onto the Desfiladero de los Gaitanes nature reserve.
+
+On your way up to the dam you'll find yourself presented with plenty of photo opportunties, including El Caminito del Rey and the Dam itself.
+
+For the return leg I basically traced my steps back to Estación de Cártama, from which I then proceeded on to Cártama and the outskirts of Alhaurín el Grande. Then back to Alhaurín de la Torre and Benalmádena.
+
+![](/post/2019-03-19-cycling-training-camp-benalmadena_files/Guadalhorce.svg)
+
+*See ride on [Strava](https://www.strava.com/activities/2210718045)*

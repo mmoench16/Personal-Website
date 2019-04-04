@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>Barra</title>
-      <link>/tags/barra/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/barra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Beer</title>
       <link>/tags/beer/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
@@ -48,27 +39,27 @@
     </item>
     
     <item>
-      <title>Berneray</title>
-      <link>/tags/berneray/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Benalmadena</title>
+      <link>/tags/benalmadena/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/berneray/</guid>
+      <guid>/tags/benalmadena/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bike Touring</title>
-      <link>/tags/bike-touring/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Costa Del Sol</title>
+      <link>/tags/costa-del-sol/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bike-touring/</guid>
+      <guid>/tags/costa-del-sol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cycling</title>
       <link>/tags/cycling/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/cycling/</guid>
       <description></description>
@@ -89,15 +80,6 @@
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/economic-potential/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eriskay</title>
-      <link>/tags/eriskay/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/eriskay/</guid>
       <description></description>
     </item>
     
@@ -129,15 +111,6 @@
     </item>
     
     <item>
-      <title>Harris</title>
-      <link>/tags/harris/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/harris/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hospital</title>
       <link>/tags/hospital/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
@@ -147,11 +120,11 @@
     </item>
     
     <item>
-      <title>Lewis</title>
-      <link>/tags/lewis/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Malaga</title>
+      <link>/tags/malaga/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/lewis/</guid>
+      <guid>/tags/malaga/</guid>
       <description></description>
     </item>
     
@@ -179,15 +152,6 @@
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/maze/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Outer Hebrides</title>
-      <link>/tags/outer-hebrides/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/outer-hebrides/</guid>
       <description></description>
     </item>
     
@@ -237,9 +201,18 @@
     </item>
     
     <item>
+      <title>Road Cycling</title>
+      <link>/tags/road-cycling/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/road-cycling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scotland</title>
       <link>/tags/scotland/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/scotland/</guid>
       <description></description>
@@ -264,20 +237,20 @@
     </item>
     
     <item>
-      <title>Uist</title>
-      <link>/tags/uist/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Training</title>
+      <link>/tags/training/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/uist/</guid>
+      <guid>/tags/training/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vatersay</title>
-      <link>/tags/vatersay/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Training Camp</title>
+      <link>/tags/training-camp/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/vatersay/</guid>
+      <guid>/tags/training-camp/</guid>
       <description></description>
     </item>
     
@@ -287,15 +260,6 @@
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/vicia-faba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Western Isles</title>
-      <link>/tags/western-isles/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/western-isles/</guid>
       <description></description>
     </item>
     

@@ -4,6 +4,7 @@ languageCode = "en-us"
 title = "MM's Blog"
 theme = "hugo-lithium"
 googleAnalytics = "UA-102853974-2"
+enableEmoji = true
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
