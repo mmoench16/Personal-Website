@@ -19,6 +19,18 @@ tags:
   - scotland
 ---
 
+## 2019
+
+### Alcohol Brief Interventions 2018/19
+
+Authors: R Gordon, M Moench
+
+Abstract: This release by Information Services Division (ISD) presents the number of Alcohol Brief
+Interventions (ABIs) delivered in Scotland in 2018/19. ABIs are short discussions which aim to help
+individuals reduce their drinking to within sensible guidelines.
+
+[Link to publication](https://www.isdscotland.org/Health-Topics/Drugs-and-Alcohol-Misuse/Publications/2019-06-25/2019-06-25-AlcoholBriefInterventions-Report.pdf)
+
 ## 2018
 
 ### Alcohol-Related Hospital Statistics Scotland 2017/18
