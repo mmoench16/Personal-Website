@@ -1,0 +1,36 @@
+---
+title: "UCI Team Rankings (Road) - Top 3 (Season 2019) in one GIF.."
+author: "MM"
+date: '2019-10-29'
+slug: uci-team-rankings-road-top3
+categories: 
+  - cycling
+
+tags:    
+  - cycling
+  - road cycling
+  - uci
+  - team rankings
+  - animation
+  - gif
+  - deceuninck quickstep
+  - bora hansgrohe
+  - team jumbo visma
+  
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+With the *UCI Road Cycling Season 2019* well and truly come to an end I thought it would be nice to create a little animation that summarises the *Team Ranking* category (focussing on the top 3 team)..
+
+![](/post/2019-10-29-uci-team-rankings-road-top3_files/top3anim.gif)
+
+Well done and thanks for the entertainment `r emo::ji("clap")`:
+
+* Final Ranking (23/10/2019):
+  + Deceuninck-Quickstep `r emo::ji("1st_place_medal")`
+  + Bora-Hansgrohe `r emo::ji("2nd_place_medal")`
+  + Team Jumbo Visma `r emo::ji("3rd_place_medal")`
+  
+*For the geeks amongst you, you can find the code to create above animation here: [GitHub](https://github.com/mmoench16/UCI-Bike-Rankings)*

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/10/29/uci-team-rankings-road-top3/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/03/19/cycling-training-camp-benalmadena/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
   </url>
@@ -40,6 +45,12 @@
   </url>
   
   <url>
+    <loc>/tags/animation/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/beer/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -48,6 +59,12 @@
   <url>
     <loc>/tags/benalmadena/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bora-hansgrohe/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,13 +81,19 @@
   
   <url>
     <loc>/tags/cycling/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/cycling/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/deceuninck-quickstep/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -111,6 +134,12 @@
   </url>
   
   <url>
+    <loc>/tags/gif/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/hospital/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -118,7 +147,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -154,7 +183,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -196,7 +225,7 @@
   
   <url>
     <loc>/tags/road-cycling/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -225,6 +254,18 @@
   </url>
   
   <url>
+    <loc>/tags/team-jumbo-visma/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/team-rankings/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/training/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -233,6 +274,12 @@
   <url>
     <loc>/tags/training-camp/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/uci/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
