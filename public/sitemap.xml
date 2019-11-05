@@ -63,7 +63,19 @@
   </url>
   
   <url>
+    <loc>/tags/bianchi/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/bora-hansgrohe/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/canyon/</loc>
     <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -238,6 +250,12 @@
   <url>
     <loc>/tags/shapefiles/</loc>
     <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/specialized/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

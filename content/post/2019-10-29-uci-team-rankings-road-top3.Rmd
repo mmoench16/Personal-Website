@@ -16,6 +16,9 @@ tags:
   - deceuninck quickstep
   - bora hansgrohe
   - team jumbo visma
+  - specialized
+  - canyon
+  - bianchi
   
 output:
   blogdown::html_page:
@@ -33,4 +36,15 @@ Well done and thanks for the entertainment `r emo::ji("clap")`:
   + Bora-Hansgrohe `r emo::ji("2nd_place_medal")`
   + Team Jumbo Visma `r emo::ji("3rd_place_medal")`
   
-*For the geeks amongst you, you can find the code to create above animation here: [GitHub](https://github.com/mmoench16/UCI-Bike-Rankings)*
+In addition to the above, I thought it would be interesting to see how the UCI Team Ranking points would split over the different bike manufacturers that feature in the World Tour. In the same vein as the previous animation, here are the Top 3 Bike Manufacturers throught the 2019 Road Cycling season based on *UCI Team Reanking* points.
+
+![](/post/2019-10-29-uci-team-rankings-road-top3_files/top3manfs.gif)
+
+**Specialized** as well as **Canyon** have dominated the 2019 Road Cycling season which comes as no surprise seeing that they each sponser two World Tour teams (Specialized: Deceuninck-Quickstep & Bora-Hansgrohe; Canyon: Katusha-Alpecin & Movistar).
+
+* Final Ranking (23/10/2019):
+  + Specialized (28953.89) `r emo::ji("1st_place_medal")`
+  + Canyon (14423.05) `r emo::ji("2nd_place_medal")`
+  + Bianchi (13042.65) `r emo::ji("3rd_place_medal")`
+
+*For the geeks amongst you, you can find the code to create above animations here: [GitHub](https://github.com/mmoench16/UCI-Bike-Rankings)*
