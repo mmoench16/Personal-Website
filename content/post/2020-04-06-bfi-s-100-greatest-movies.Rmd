@@ -1,0 +1,79 @@
+---
+title: BFI's 100 Greatest Movies
+author: Martin Moench
+date: '2020-04-06'
+slug: bfi-s-100-greatest-movies
+categories:
+  - movies
+tags:
+  - 100 greatest movies
+  - greatest movies
+  - movies
+  - bfi
+  - sight & sound
+  - '100'
+  - all time
+  - list
+  - download
+  - notion
+  - notion.so
+  - google sheets
+  - sheets
+  - picker
+  - random
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+bfi100 <- readRDS("/cloud/project/public/post/2020-04-06-bfi-s-100-greatest-movies_files/bfi100.rds")
+```
+
+In 2012, the **British Film Institute (BFI)** published a list of what are deemed to be the [100 Greatest Movies of All Time](https://www.bfi.org.uk/greatest-films-all-time) according to movie critics. The opinion polls were conducted by BFI's **Sight & Sound** magazine and included more than 800 critics, programmers, academics, and distributors from all over the world.
+
+You can see the list below. Please note, I assigned a rank from 1 to 100 (well, there actually seem to be 101 entries in this list `r emo::ji("thinking")``r emo::ji("man_shrugging")`), which is slightly different to the original list where multiple movies can share the same rank.
+
+If you are like me and like to work your way through lists (especially during times of Coronavirus lockdown) then I hope you will find the below useful. I couldn't find an easily downloadable or forkable version of the **BFI's 100 Greatest Film** list, so I created a couple of solutions (Notion.so / Google Sheets). I also included a little feature that will return a randomly selected movie from the list (just in case you ever face good old choice paralysis).
+
+<div style="text-align: center;">
+  <a href='https://www.notion.so/BFI-s-100-Greatest-Movies-041d62b439d4418d9a017a7dba40c21c' style = "background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 10px 14px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 17px;
+         margin: 4px 2px;
+         cursor: pointer;" target = "_blank">Notion.so (View / Duplicate)</a>
+  <a href = 'https://docs.google.com/spreadsheets/d/1WB9ypPGtRasp0wH4TvsA526qG1Efw9R0MmBfgKv93fY/edit?usp=sharing' style = "background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 10px 14px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 17px;
+         margin: 4px 2px;
+         cursor: pointer;" target='_blank'>Google Sheets</a>
+</div>
+
+### Why not watch:
+
+<div style = "text-align: center;">
+  <iframe src="https://mmoench.shinyapps.io/movie-picker/" style="max-height:100px; outline: none; border: none; padding-bottom: -25px;margin-bottom: -25px;"></iframe>
+</div>
+
+### BFI’s 100 Greatest Films:
+
+```{r, echo=FALSE, message=FALSE}
+# library(dplyr)
+# 
+# bfi100 <- readRDS("/cloud/project/public/post/2020-04-06-bfi-s-100-greatest-movies_files/bfi100.rds")
+
+bfi100 %>% 
+  mutate(title = paste0("<a href='",wiki_link,"'target='_blank'>",title,"</a>")) %>%
+  select(-ranking, -wiki_link) %>% 
+  DT::datatable(escape = F, options = list(scrollX = TRUE, scrollCollapse = TRUE))
+```
+

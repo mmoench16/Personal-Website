@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/04/06/bfi-s-100-greatest-movies/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/10/29/uci-team-rankings-road-top3/</loc>
     <lastmod>2019-10-29T00:00:00+00:00</lastmod>
   </url>
@@ -33,6 +38,18 @@
   </url>
   
   <url>
+    <loc>/tags/100/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/100-greatest-movies/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/alcohol/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -41,6 +58,12 @@
   <url>
     <loc>/tags/algorithm/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/all-time/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,6 +82,12 @@
   <url>
     <loc>/tags/benalmadena/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bfi/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -116,6 +145,12 @@
   </url>
   
   <url>
+    <loc>/tags/download/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/economic-potential/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -152,14 +187,32 @@
   </url>
   
   <url>
+    <loc>/tags/google-sheets/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/greatest-movies/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/hospital/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/tags/list/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -188,14 +241,44 @@
   </url>
   
   <url>
+    <loc>/tags/movies/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/movies/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/notion/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/notion.so/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/p5.js/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/tags/picker/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -220,6 +303,12 @@
   <url>
     <loc>/tags/r/</loc>
     <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/random/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -254,6 +343,18 @@
   </url>
   
   <url>
+    <loc>/tags/sheets/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sight--sound/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/specialized/</loc>
     <lastmod>2019-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -267,7 +368,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

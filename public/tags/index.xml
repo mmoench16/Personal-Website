@@ -6,10 +6,28 @@
     <description>Recent content in Tags on MM&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100</title>
+      <link>/tags/100/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>100 Greatest Movies</title>
+      <link>/tags/100-greatest-movies/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/100-greatest-movies/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Alcohol</title>
@@ -26,6 +44,15 @@
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All Time</title>
+      <link>/tags/all-time/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/all-time/</guid>
       <description></description>
     </item>
     
@@ -53,6 +80,15 @@
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/benalmadena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bfi</title>
+      <link>/tags/bfi/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bfi/</guid>
       <description></description>
     </item>
     
@@ -120,6 +156,15 @@
     </item>
     
     <item>
+      <title>Download</title>
+      <link>/tags/download/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/download/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Economic Potential</title>
       <link>/tags/economic-potential/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
@@ -165,11 +210,38 @@
     </item>
     
     <item>
+      <title>Google Sheets</title>
+      <link>/tags/google-sheets/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google-sheets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greatest Movies</title>
+      <link>/tags/greatest-movies/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/greatest-movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hospital</title>
       <link>/tags/hospital/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/hospital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>/tags/list/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/list/</guid>
       <description></description>
     </item>
     
@@ -210,11 +282,47 @@
     </item>
     
     <item>
+      <title>Movies</title>
+      <link>/tags/movies/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notion</title>
+      <link>/tags/notion/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/notion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notion.so</title>
+      <link>/tags/notion.so/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/notion.so/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>P5.js</title>
       <link>/tags/p5.js/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/p5.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Picker</title>
+      <link>/tags/picker/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/picker/</guid>
       <description></description>
     </item>
     
@@ -233,6 +341,15 @@
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random</title>
+      <link>/tags/random/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/random/</guid>
       <description></description>
     </item>
     
@@ -278,6 +395,24 @@
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/shapefiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sheets</title>
+      <link>/tags/sheets/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sheets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sight  Sound</title>
+      <link>/tags/sight--sound/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sight--sound/</guid>
       <description></description>
     </item>
     
